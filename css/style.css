@@ -54,7 +54,11 @@ a{
     color: rgb(0,0,0)
 }
 
-a:hover {
+.inline_link{
+    text-decoration: underline;
+}
+
+.icon-link:hover {
     color: rgb(0, 162, 255);
     text-decoration: none;
 }
