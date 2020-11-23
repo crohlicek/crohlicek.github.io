@@ -57,7 +57,7 @@ html {
 }
 
 .blogfig_plot{
-    width:350px;
+    width:450px;
     height:auto;
     object-fit:cover;
     /* border-radius:50%; */
@@ -81,17 +81,4 @@ a{
     body { width: 90% }
     .footer {width: 100% } 
     #about {font-size: 16px;}
-}
-@media (min-width:641px) {
-    body { width: 75% } 
-    .footer {width: 75% }
-    #about {font-size: 18px;}
-}
-@media (min-width:961px) {
-    body { width: 60% } 
-    .footer {width: 60% }
-}
-@media (min-width:1281px) {
-    body { width: 45% }
-    .footer {width: 45% }
 }
