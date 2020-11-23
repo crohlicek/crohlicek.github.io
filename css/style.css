@@ -50,6 +50,20 @@ html {
     border-radius:50%;
 }
 
+.blogfig{
+    width:400px;
+    height:auto;
+    object-fit:cover;
+}
+
+.blogfig_plot{
+    width:400px;
+    height:auto;
+    object-fit:cover;
+    /* border-radius:50%; */
+}
+
+
 a{
     color: rgb(0,0,0)
 }
