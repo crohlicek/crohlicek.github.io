@@ -1,0 +1,98 @@
+body {
+    font-family: "Dosis", serif;
+    background-color: #e6e6e6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    position: relative;
+    min-height: 100vh;
+}
+
+#header {
+    padding: 10px ;
+    margin: 10px;
+    border-bottom: 1px solid #007bff;
+}
+
+#my_name{
+
+    font-size: 70px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 30px;    /* Footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid rgba(0, 123, 255, 0.3);
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there*/
+    margin-bottom: 8px;
+}
+
+.icon-link {
+    color: #212529;
+    font-size: 40px;
+}
+
+.myimg{
+    width:135px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.blogfig{
+    width:400px;
+    height:auto;
+    object-fit:cover;
+}
+
+.blogfig_plot{
+    width:450px;
+    height:auto;
+    object-fit:cover;
+    /* border-radius:50%; */
+}
+
+
+a{
+    color: rgb(0,0,0)
+}
+
+.inline_link{
+    text-decoration: underline;
+}
+
+.icon-link:hover {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+@media (min-width:320px) {
+    body { width: 90% }
+    .footer {width: 100% } 
+    #about {font-size: 16px;}
+}
+
+@media (min-width:641px) {
+    body { width: 75% } 
+    .footer {width: 75% }
+    #about {font-size: 18px;}
+}
+@media (min-width:961px) {
+    body { width: 60% } 
+    .footer {width: 60% }
+}
+@media (min-width:1281px) {
+    body { width: 45% }
+    .footer {width: 45% }
+}
